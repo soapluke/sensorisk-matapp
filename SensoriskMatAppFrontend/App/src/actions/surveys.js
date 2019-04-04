@@ -1,5 +1,4 @@
 ﻿import axios from 'axios';
-import qs from 'qs';
 import { apiUrl, originUrl } from '../constants/constants';
 
 export const createSurvey = (survey, id) => {
@@ -22,32 +21,6 @@ export const createSurvey = (survey, id) => {
         });
     };
 };
-
-export const testAPI = (data) => {
-    return (dispatch) => {
-        return axios.post('http://localhost:1337/api/values/post', data, {
-            headers: {
-                'content-type': 'application/json'
-            }
-        }).then(response => {
-            console.log(response.data)
-        })
-        .catch(error => {
-            console.log(error);
-        });
-    };
-};
-
-//export const testAPI = (data) => {
-//    return (dispatch) => {
-//        return axios({
-//            method: 'post',
-//            url: 'http://localhost:1337/api/values/post',
-//            headers: { 'content-type': 'application/json' },
-//            data
-//        })
-//    }
-//};
 
 
 //export const createSurveySuccess = (survey) => ({
