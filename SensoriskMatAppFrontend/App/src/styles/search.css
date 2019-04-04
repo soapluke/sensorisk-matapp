@@ -1,0 +1,24 @@
+﻿.search__content{
+    margin: auto;
+    text-align: center;
+}
+.search__content {
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    width: 500px;
+}
+.search__error {
+    color: #ff8c8c !important;
+}
+.search__input {
+    margin-left: 8px;
+    flex: 1;
+}
+.search__icon {
+  
+}
+.MuiFormHelperText-root-126 {
+    color: #ff8c8c !important;
+}

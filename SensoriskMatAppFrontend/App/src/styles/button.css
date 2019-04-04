@@ -1,0 +1,15 @@
+﻿.button {
+    background-color: darkblue;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1;
+    padding: 1.2rem;
+    border: none;
+}
+
+.button__viewanswersforsurvey {
+    float: right;
+}

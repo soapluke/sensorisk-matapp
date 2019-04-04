@@ -1,0 +1,33 @@
+﻿.createsurvey__input {
+    margin-bottom: 1rem;
+}
+
+.createsurvey__textfield {
+    margin-bottom: 1rem !important;
+}
+
+.createsurvey__savesurveybtn {
+    margin-bottom: 1rem !important;
+}
+
+.createsurvey__addchapterbtn {
+    margin-top: 1rem !important;
+}
+
+.createsurvey__addquestionbtn {
+    margin-bottom: 0.5rem !important;
+}
+
+.createsurvey__selectquestion {
+    margin-right: 2rem !important;
+}
+
+.createsurvey__addoptionbtn {
+    margin-left: 1rem !important;
+}
+
+.createsurvey__deletequestionbtn, .createsurvey__editquestionbtn {
+    position: relative;
+    z-index: 99;
+    float: right;
+}

@@ -1,0 +1,6 @@
+﻿.list-item {
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+    text-decoration: none;
+}

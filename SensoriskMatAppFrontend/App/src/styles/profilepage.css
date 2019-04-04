@@ -1,0 +1,25 @@
+﻿.profilepage__content {
+    align-content: center;
+    padding: 1.2rem 0;
+    display: flex;
+    justify-content: space-around;
+    max-width: 80rem;
+}
+.profilepage__about {
+    flex: 1;
+    margin: 20px;
+}
+.profilepage__survey {
+    flex: 2;
+    padding: 20px;
+    margin: 20px;
+}
+
+.profilepage__picture {
+    padding: 20px;
+    margin: 20px;
+}
+.profilepage__info {
+    padding: 20px;
+    margin: 20px;
+}
