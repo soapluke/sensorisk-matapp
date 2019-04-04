@@ -1,7 +1,112 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp2.1\SensoriskMatAppFrontend.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\netcoreapp2.1\SensoriskMatAppFrontend.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\SensoriskMatAppFrontend.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="App\.gitignore" />
+    <None Include="App\package-lock.json" />
+    <None Include="App\package.json" />
+    <None Include="App\public\favicon.ico" />
+    <None Include="App\public\index.html" />
+    <None Include="App\public\manifest.json" />
+    <None Include="App\README.md" />
+    <None Include="App\src\actions\chapters.js" />
+    <None Include="App\src\actions\freeTextQuestions.js" />
+    <None Include="App\src\actions\login.js" />
+    <None Include="App\src\actions\logOut.js" />
+    <None Include="App\src\actions\multiChoiceQuestions.js" />
+    <None Include="App\src\actions\profilePage.js" />
+    <None Include="App\src\actions\searchSurvey.js" />
+    <None Include="App\src\actions\submittedFreetextAnswers.js" />
+    <None Include="App\src\actions\submittedMultiAnswers.js" />
+    <None Include="App\src\actions\surveys.js" />
+    <None Include="App\src\actions\viewAnswers.js" />
+    <None Include="App\src\actions\viewsurvey.js" />
+    <None Include="App\src\components\ChapterContent.js" />
+    <None Include="App\src\components\ChapterModal.js" />
+    <None Include="App\src\components\ChapterQuestions.js" />
+    <None Include="App\src\components\ConfirmedSubmitted.js" />
+    <None Include="App\src\components\CreateSurvey.js" />
+    <None Include="App\src\components\EditQuestionModal.js" />
+    <None Include="App\src\components\FreetextAnswer.js" />
+    <None Include="App\src\components\Header.js" />
+    <None Include="App\src\components\Home.js" />
+    <None Include="App\src\components\Image.js" />
+    <None Include="App\src\components\LoginModal.js" />
+    <None Include="App\src\components\OptionsAnswer.js" />
+    <None Include="App\src\components\ProfilePage.js" />
+    <None Include="App\src\components\QuestionForm.js" />
+    <None Include="App\src\components\QuestionList.js" />
+    <None Include="App\src\components\QuestionModal.js" />
+    <None Include="App\src\components\QuestionModalContentMultiChoice.js" />
+    <None Include="App\src\components\SearchSurvey.js" />
+    <None Include="App\src\components\SurveyDatePicker.js" />
+    <None Include="App\src\components\SurveyForm.js" />
+    <None Include="App\src\components\SurveyList.js" />
+    <None Include="App\src\components\SurveyListItem.js" />
+    <None Include="App\src\components\ViewAnswers.js" />
+    <None Include="App\src\components\ViewSurvey.js" />
+    <None Include="App\src\constants\constants.js" />
+    <None Include="App\src\index.js" />
+    <None Include="App\src\reducers\auth.js" />
+    <None Include="App\src\reducers\chapters.js" />
+    <None Include="App\src\reducers\freeTextQuestions.js" />
+    <None Include="App\src\reducers\login.js" />
+    <None Include="App\src\reducers\multiChoiceQuestion.js" />
+    <None Include="App\src\reducers\organisation.js" />
+    <None Include="App\src\reducers\submittedFreetextAnswers.js" />
+    <None Include="App\src\reducers\submittedMultiAnswers.js" />
+    <None Include="App\src\reducers\survey.js" />
+    <None Include="App\src\reducers\surveys.js" />
+    <None Include="App\src\reducers\viewAnswers.js" />
+    <None Include="App\src\reducers\viewsurvey.js" />
+    <None Include="App\src\router\AppRouter.js" />
+    <None Include="App\src\router\PrivateRouter.js" />
+    <None Include="App\src\router\PublicRouter.js" />
+    <None Include="App\src\selectors\filterFreeTextAnswersFromQuestionID.js" />
+    <None Include="App\src\selectors\filterMultiChoiceQuestionsByChapterID.js" />
+    <None Include="App\src\selectors\filterQuestionInChapter.js" />
+    <None Include="App\src\selectors\filterQuestionsByChapterID.js" />
+    <None Include="App\src\store\configureStore.js" />
+    <None Include="App\src\styles\base.css" />
+    <None Include="App\src\styles\button.css" />
+    <None Include="App\src\styles\checkbox.css" />
+    <None Include="App\src\styles\content-container.css" />
+    <None Include="App\src\styles\createsurvey.css" />
+    <None Include="App\src\styles\datepicker.css" />
+    <None Include="App\src\styles\header.css" />
+    <None Include="App\src\styles\image.css" />
+    <None Include="App\src\styles\list.css" />
+    <None Include="App\src\styles\profilepage.css" />
+    <None Include="App\src\styles\search.css" />
+    <None Include="App\src\styles\submitted.css" />
+    <None Include="App\src\styles\viewsurvey.css" />
+    <None Include="App\yarn.lock" />
+    <None Include="obj\Debug\netcoreapp2.1\SensoriskMatAppFrontend.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\SensoriskMatAppFrontend.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\netcoreapp2.1\SensoriskMatAppFrontend.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\netcoreapp2.1\SensoriskMatAppFrontend.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\SensoriskMatAppFrontend.csproj.nuget.cache" />
+    <None Include="obj\SensoriskMatAppFrontend.csproj.nuget.g.props" />
+    <None Include="obj\SensoriskMatAppFrontend.csproj.nuget.g.targets" />
+    <None Include="yarn.lock" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp2.1\" />
+    <Folder Include="bin\Release\netcoreapp2.1\" />
+  </ItemGroup>
 
 </Project>
