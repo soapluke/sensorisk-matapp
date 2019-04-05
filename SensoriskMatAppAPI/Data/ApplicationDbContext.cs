@@ -42,7 +42,7 @@ namespace Data
 
             var builder = new DbContextOptionsBuilder<ApplicationDbContext>();
 
-            //builder.UseSqlServer("Server=tcp:knowitorebrotest.database.windows.net,1433;Initial Catalog=sensoriskmatapp-test;Persist Security Info=False;User ID=sensoriskmatapp-test;Password=Edgar1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+            
             builder.UseSqlServer("Server=.\\sqlexpress;Database=Sensorisk-Matapp;Trusted_Connection=True;");
 
             var context = new ApplicationDbContext(builder.Options);
